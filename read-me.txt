@@ -1,0 +1,4 @@
+# steps to create .dll file:
+
+csc /target:library /out:Add.DLL AddOperator.cs
+csc /target:library /out:Sub.DLL SubOperator.cs
